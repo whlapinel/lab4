@@ -203,6 +203,28 @@ nav a:active {
     gap: 1rem;
 }
 
+.address {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.2rem;
+}
+
+.second-column {
+    grid-column: 2;
+}
+
+.hours-container {
+    display: grid;
+    grid-template-columns: auto max-content;
+    gap: 1rem;
+    align-items: center;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
 
 /*Reservation section*/
 input,
