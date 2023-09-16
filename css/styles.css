@@ -101,6 +101,37 @@ nav a:active {
 
 /*Hero section*/
 
+.hero-container {
+    height: 30vh;
+    min-height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 90%;
+    color: var(--white-color);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cfa {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: var(--white-color);
+    font-size: var(--fs-h5);
+    font-weight: 600;
+}
+
 
 
 /*Content wrapper*/
