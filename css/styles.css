@@ -73,6 +73,30 @@ body {
 
 /*Header*/
 
+#header img {
+    height: 44px;
+    width: auto;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a {
+    font-size: var(--fs-h5);
+}
+
+nav a:hover {
+    color: var(--black50);
+}
+
+nav a:active {
+    color: var(--black50);
+}
+
+
 
 
 /*Hero section*/
