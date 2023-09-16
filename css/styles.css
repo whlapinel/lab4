@@ -151,10 +151,7 @@ nav a:active {
 /*Menu section*/
 
 #menu > h3 {
-    display: inherit;
-    justify-content: center;
-    align-items: center;
-    gap: 0.3em;
+    align-self: center;
 }
 
 
