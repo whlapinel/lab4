@@ -146,16 +146,36 @@ nav a:active {
     padding-left: 0;
     padding-right: 0;
     margin:auto
-
 }
+
+
 
 
 
 
 /*Menu section*/
 
+#menu > h3 {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+}
 
 
+.item {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.price {
+    text-align: right;
+}
+
+.description {
+    max-width: 60ch;
+    color: var(--black75);
+}
 
 /*About section*/
 
