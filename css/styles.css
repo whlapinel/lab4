@@ -1,0 +1,139 @@
+/*CSS Variables*/
+:root {
+    --primary-color: #9c5526;
+    --secondary-color: #54331d;
+    --white-color: #ede7e3;
+    --black-color: #353331;
+    --black75: hsla(24, 4%, 20%, 0.75);
+    --black50: hsla(24, 4%, 20%, 0.5);
+    --primary75: hsla(24, 49%, 22%, 0.75);
+    --secondary75: hsl(24, 49%, 22%, 0.75);
+    --fs-h1: 2.488rem;
+    --fs-h2: 2.074rem;
+    --fs-h3: 1.728rem;
+    --fs-h4: 1.44rem;
+    --fs-h5: 1.2rem;
+    --fs-h6: 1rem;
+    --fs-small: 0.83rem;
+  }
+  
+/*Global Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: var(--fs-h1);
+}
+  
+h2 {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size:var(--fs-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+    font-weight: 400;
+    color: var(--secondary75);
+}
+
+.small {
+    font-size: var(--fs-small);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+body {
+    background-color: var(--white-color);
+    font-family: 'Raleway', sans-serif;
+    color: var(--black-color);
+}
+
+
+/*Header*/
+
+
+
+/*Hero section*/
+
+
+
+/*Content wrapper*/
+
+
+
+
+/*Menu section*/
+
+
+
+
+/*About section*/
+
+
+
+/*Reservation section*/
+input,
+textarea,
+select {
+    font: inherit;
+    font-size: var(--fs-h5);
+    color: var(--black-color);
+    background-color: #d6ab8f;
+    border: none;
+    width: 100%;
+    padding: 0.2em;
+}
+
+select {
+    padding: 0.4em 0.2em;
+}
+label {
+  color: var(--black75);
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5em 0;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 1rem;
+}
+
+
+footer a {
+    color: var(--white-color);
+}
+
+footer ul i {
+    font-size: var(--fs-h5);
+}
+
+
+
+
+
+/*Responsive Design*/
