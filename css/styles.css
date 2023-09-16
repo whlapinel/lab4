@@ -177,7 +177,30 @@ nav a:active {
 
 #about h2 {
     align-self: flex-start;
+}
 
+.card {
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    font-weight: 600;
+}
+
+.cards {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 200px); /*FIXME needs to wrap when viewport is smaller */
+    justify-content: center;
+    gap: 1rem;
 }
 
 
